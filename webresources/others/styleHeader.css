@@ -3,10 +3,11 @@
 #headerBar{
     	position:static; top:0; left:0; right:0; height:80px; 
         background:linear-gradient(90deg,navy,purple);
-	
+	padding:0;
           }
-#headerBar a{}
-#headerBar img{}
+#headerBar .content{width:full; max-width:1200px; margin:auto; margin-top:10px; margin-bottom:10px; height:60px; padding:0;}
+#headerBar .content a{float:right;}
+#headerBar .content img{float:left; height:60px; width:auto; cursor:pointer;}
 
 #footer{}
 
