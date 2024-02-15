@@ -1,8 +1,8 @@
 #header{}
 
 #headerBar{
-    	position:static; top:0; left:0; right:0; height:200px; 
-        background:linear-gradient(navy,purple);
+    	position:static; top:0; left:0; right:0; height:80px; 
+        background:linear-gradient(90deg,navy,purple);
 	
           }
 #headerBar a{}
