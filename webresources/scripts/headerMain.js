@@ -4,8 +4,11 @@ const foot = document.getElementById("footer");
 const loader = document.getElementById("loader");
 
 function runHeaderSetup(){
-  head.innerHTML = "<div id='headerBar'></div>";
-  foot.innerHTML = "<div class='container'>(C) 2024 Globe-City Parks and Resorts LLC.</div>";
+  head.innerHTML = "<div id='headerBar'> <div class='content'> \
+	  		<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcprGrayLogo.png' onclick='window.open("+'"https://gcparksandresorts.github.io/main","_self"'+")'> \
+	  		<a>Destinations</a> \
+	  		</div> </div>";
+  foot.innerHTML = "<br><br><div class='spacer'></div> <div class='container'>(C) 2024 Globe-City Parks and Resorts LLC.</div>";
 }//End function run header setup
 
 function endLoadingInitial(){
