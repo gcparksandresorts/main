@@ -1,7 +1,7 @@
 #header{}
 
 #headerBar{
-    	position:fixed; top:0; left:0; right:0; margin-top:-80px; height:80px; 
+    	position:fixed; top:0; left:0; right:0; margin-top:0; height:80px; 
         background:linear-gradient(90deg,MidnightBlue,navy,MidnightBlue);
 	padding:0;
           }
