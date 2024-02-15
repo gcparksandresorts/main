@@ -9,12 +9,12 @@ body{
 
 /*-- HEADINGS ----------------------------------------------------------------------------------------------------------------------------------------------- */
 
-  h1{font-size:28px;color:#073763;font-weight:normal;} h2{font-size:23px;color:#073763;font-weight:normal;} h3{font-size:20px;color:dimgray;font-weight:bold;} 
+  h1{font-size:28px;color:midnightblue;font-weight:normal;} h2{font-size:23px;color:midnightblue;font-weight:normal;} h3{font-size:20px;color:dimgray;font-weight:bold;} 
 
 
 /*-- SUBTEXT  ----------------------------------------------------------------------------------------------------------------------------------------------- */
 
-  sup{font-size:10px;font-style:normal;font-weight:normal;font-family:veranda;} a{cursor:pointer;text-decoration:underline;color:black;} a:hover{color:#07039D;}
+  sup{font-size:10px;font-style:normal;font-weight:normal;font-family:veranda;} a{cursor:pointer;text-decoration:underline;color:black;} a:hover{color:navy;}
   .disclaimer{font-size:10px;color:dimgray;}
 
 /*-- CONTAINER ---------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -29,10 +29,10 @@ body{
 
 /*-- BANNERS AND TITLE BARS --------------------------------------------------------------------------------------------------------------------------------- */
 
-	.banner {width:full; height:400px; margin:0; padding:0; text-align:center; background:#073763;}
+	.banner {width:full; height:400px; margin:0; padding:0; text-align:center; background:midnightblue;}
 	.banner img{width:100%; height:100%; margin:0; object-fit:cover;}
 
-	.titleBar {width:full; min-height:90px; text-align:center; background:#073763; margin:0; margin-bottom:20px; padding:10px;}
+	.titleBar {width:full; min-height:90px; text-align:center; background:midnightblue; margin:0; margin-bottom:20px; padding:10px;}
 	.titleBar h1,.titleBar h2,.titleBar h3 {vertical-align: middle; color:white;}
 	.titleBar img {height:100px; width:auto; margin:10px;}
 
@@ -60,7 +60,7 @@ body{
 	.entertainmentContainer div{width:30%; margin:10px; border:1px solid black; align-self:stretch; min-width:300px; border-radius:5px; cursor:pointer;}
 	.entertainmentContainer div img{float:left; width:30%; height:100%; margin:0; object-fit:cover; border-radius:4px;}
 	.entertainmentContainer div p{width:70%; float:right; text-align:left; margin:0; padding:10px;}
-	.entertainmentContainer div:hover{background:#efefef;} .entertainmentContainer div:hover p b{transition:0.4s; color:#073763;}
+	.entertainmentContainer div:hover{background:#efefef;} .entertainmentContainer div:hover p b{transition:0.4s; color:midnightblue;}
 	@media screen and (max-width:600px){.entertainmentContainer{flex-flow:column;} .entertainmentContainer div{width:90%; margin:auto; margin-bottom:20px;}
       	.entertainmentContainer div img{width:100%; height:80px; display:block;} .entertainmentContainer div p{display:block; width:100%;}}
 
@@ -87,7 +87,7 @@ body{
         .tileContainer div img{width:100%; height:200px; border-radius:10px; object-fit:cover; margin-bottom:0;}
         .tileContainer div p {text-align:left; margin-top:0px;} .tileContainer div h3 {margin-bottom:10px; margin-top:10px; font-weight:bold; font-size:16px;}
         
-        .tileContainer div:hover img{scale:1.025; transition:0.25s;} .tileContainer div:hover h3{color:#073763; transition:0.25s; }
+        .tileContainer div:hover img{scale:1.025; transition:0.25s;} .tileContainer div:hover h3{color:midnightblue; transition:0.25s; }
         
         @media screen and (max-width:900px){.tileContainer{flex-flow:column;} .tileContainer div{width:90%; margin:auto; max-width:400px;}}
 
@@ -106,7 +106,7 @@ body{
         }
 
 	.otherEvents img{width:20%; align-self:stretch; margin:0; margin-right:15px; object-fit:cover;}
-	.otherEvents div{width:80%; margin:0;} .otherEvents div h3{color:#073763; margin-top:0;}
+	.otherEvents div{width:80%; margin:0;} .otherEvents div h3{color:midnightblue; margin-top:0;}
 	.otherEvents{display:flex; flex-flow:row; width:100%; padding:15px; max-width:1200px; margin:auto;}
 	@media screen and (max-width:900px){.otherEvents{flex-flow:column;} .otherEvents div{margin-top:15px; width:100%;} .otherEvents img{width:100%;}}
         
@@ -133,10 +133,10 @@ body{
 
 /*-- BUTTONS AND UI ----------------------------------------------------------------------------------------------------------------------------------------- */
 
-  	button{border:2px solid #073763; border-radius:6px; color:#073763; padding:10px; margin:10px; background:none; transition:0.4s; cursor:pointer; font-size:15px;}
+  	button{border:2px solid midnightblue; border-radius:6px; color:midnightblue; padding:10px; margin:10px; background:none; transition:0.4s; cursor:pointer; font-size:15px;}
   	button:hover{background:#efefef;}
 
-  	.btnFull{color:white; background:#073763; transition:0.4s;}
+  	.btnFull{color:white; background:midnightblue; transition:0.4s;}
   	.btnFull:hover{background:dimgray;}
 
 	select{min-width:200px; padding:5px; margin:10px; cursor:pointer; padding-right:10px; padding-left:10px;}
@@ -172,7 +172,7 @@ body{
     	.blog .banner{position:relative; width:full; background:#efefef; padding:15px; height:auto;}
         .blog .banner img{width:100%; margin:auto; border-radius:10px; height:auto; max-height:70vh;}
         .blog .titleBar{width:100%; padding:15px; background:#efefef; text-align:left; margin-top:0; height:auto; max-width:1000px; border-bottom:1px solid black;}
-        .blog .titleBar h3,.blog .titleBar h2 {color:#073763; margin-top:0;}
+        .blog .titleBar h3,.blog .titleBar h2 {color:midnightblue; margin-top:0;}
         .blog .titleBar h4{margin:0; font-weight:normal; color:dimgray;}
         .blog .titleBar .spacer {background:dimgray; width:100%; height:1px;}
         .blog .titleBar #authorName{color:black; display:inline-block;}
