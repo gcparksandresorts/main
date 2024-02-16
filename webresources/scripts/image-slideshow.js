@@ -1,44 +1,22 @@
-//Label Image ID's with the following: im01, im02, im03, im04
+/*
+Example HTML Content:
+<img class="banner mySlides" src="img_snowtops.jpg">
+<img class="banner mySlides" src="img_lights.jpg">
+<img class="banner mySlides" src="img_mountains.jpg">
+<img class="banner mySlides" src="img_forest.jpg">
+*/
 
-const im1 = document.getElementById("im01");
-const im2 = document.getElementById("im02");
-const im3 = document.getElementById("im03");
-const im4 = document.getElementById("im04");
+var slideIndex = 0;
+carousel();
 
-
-function runSlideShowFour(s){
-  slideTime = s;
-  
-  im1.style.animation = "FadeIn 0.40s";
-  im2.style.animation = "FadeIn 0.40s";
-  im3.style.animation = "FadeIn 0.40s";
-  im4.style.animation = "FadeIn 0.40s";
-
-  im1.style.display = "block";
-  im2.style.display = "none";
-  im3.style.display = "none";
-  im4.style.display = "none";
-
-  setInterval(secondSlide(), slideTime);
-}
-
-function firstSlide(){
-      im1.style.display = "block";
-      im4.style.display = "none";
-      setInterval(secondSlide(), slideTime);
-}
-function secondSlide(){
-      im2.style.display = "block";
-      im1.style.display = "none";
-      setInterval(thirdSlide(), slideTime);
-}
-function thirdSlide(){
-      im3.style.display = "block";
-      im2.style.display = "none";
-      setInterval(fourthSlide(), slideTime);
-}
-function fourthSlide(){
-      im4.style.display = "block";
-      im3.style.display = "none";
-      setInterval(firstSlide(), slideTime);
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 3000); // Change image every 2 seconds
 }
