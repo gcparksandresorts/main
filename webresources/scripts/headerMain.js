@@ -7,8 +7,11 @@ function runHeaderSetup(){
   head.innerHTML = "<div id='headerBar'> <div class='content'> \
 	  		<img src='https://gcparksandresorts.github.io/main/webresources/images/GCPR-logo.png' onclick='window.open("+'"https://gcparksandresorts.github.io/main","_self"'+")'> \
 	  		<a>Destinations</a> \
+	  		<a>Current Projects</a> \
+	  		<a>About Us</a> \
+	  		<a>Get in Contact</a> \
 	  		</div> </div>";
-  foot.innerHTML = "<br><br><div class='spacer'></div> <div class='container'>(C) 2024 Globe-City Parks and Resorts LLC.</div>";
+  foot.innerHTML = "<br><br><div class='spacer'></div> <div class='container'>(C) 2024 Globe-City Parks and Resorts LLC.</div><div class='spacer'></div> <div class='container'><a>Legal</a> | <a>Careers</a> | <a>Corporate</a></div>";
 }//End function run header setup
 
 function endLoadingInitial(){
