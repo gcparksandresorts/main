@@ -10,7 +10,7 @@ function runHeaderSetup(){
 	  		<a>Current Projects</a> \
 	  		<a>About Us</a> \
 	  		<a>Get in Contact</a> \
-	  		</div> </div>";
+	  		</div> </div> <div id='headerBarSpacer'></div>";
   foot.innerHTML = "<br><br><div class='spacer'></div> <div class='container'>(C) 2024 Globe-City Parks and Resorts LLC.</div><div class='spacer'></div> <div class='container'><a>Legal</a> | <a>Careers</a> | <a>Corporate</a></div>";
 }//End function run header setup
 
