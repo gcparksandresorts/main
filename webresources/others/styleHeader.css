@@ -1,13 +1,14 @@
 #header{}
-
+#headerBarSpacer{position:absolute; background:black; top:0; left:0; right:0; height:80px;}
 #headerBar{
     	position:fixed; top:0; left:0; right:0; margin-top:0; height:80px; 
         background:linear-gradient(90deg,MidnightBlue,navy,MidnightBlue);
+	opacity:0.95;
 	padding:0;
 	z-index:999;
           }
 #headerBar .content{width:full; max-width:1200px; margin:auto; margin-top:10px; height:60px; padding:0; display:flex;}
-#headerBar .content a{padding:5px; align-self:center; height:100%; color:white; text-decoration:none; font-size:16px; padding-top:14px; transition:0.5s;}
+#headerBar .content a{padding:10px; align-self:center; height:100%; color:white; text-decoration:none; font-size:16px; padding-top:14px; transition:0.5s;}
 #headerBar .content a:hover{color:gold; scale:1.06;}
 #headerBar .content img{margin-right:auto; height:60px; width:auto; cursor:pointer; transition:0.5s;}
 #headerBar .content img:hover{scale:1.06;}
