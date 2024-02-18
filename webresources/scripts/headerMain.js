@@ -24,7 +24,7 @@ function runHeaderSetup(){
 	  		</div> </div> <div id='headerBarSpacer'></div>";
 	}
   	
-  	foot.innerHTML = "<br><br><div class='spacer'></div> <div class='container'>(C) 2024 Globe-City Parks and Resorts LLC.</div><div class='spacer'></div> <div class='container'><a>Legal</a> | <a>Careers</a> | <a>Corporate</a></div>";
+  	foot.innerHTML = "<br><br><div class='spacer'></div> <div class='container'>(C) 2024 Globe-City Parks and Resorts LLC. <p><b>(312) 900 9132</b><br>15780 West Blvd.<br>Highland, Oras Nou 98810</p></div><div class='spacer'></div> <div class='container'><a>Legal</a> | <a>Careers</a> | <a>Corporate</a></div>";
 }//End function run header setup
 
 function endLoadingInitial(){
