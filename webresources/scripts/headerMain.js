@@ -5,7 +5,7 @@ const loader = document.getElementById("loader");
 
 function runHeaderSetup(){
 
-	let width = screen.width;
+	let width = window.innerWidth;
 	if(width < 900){
 		console.log("Smaller Screen Header");
 		head.innerHTML = "<div id='headerBar'> <div class='content'> \
