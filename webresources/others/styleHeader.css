@@ -7,9 +7,9 @@
 	z-index:999;
           }
 #headerBar .content{width:full; max-width:1200px; margin:auto; margin-top:10px; height:60px; padding:0; display:flex;}
-#headerBar .content a{float:right; padding:5px; align-self:center; height:100%; color:white; transition:0.5s;}
+#headerBar .content a{padding:5px; align-self:center; height:100%; color:white; transition:0.5s;}
 #headerBar .content a:hover{color:midnightblue; background:cyan;}
-#headerBar .content img{float:left; height:60px; width:auto; cursor:pointer;}
+#headerBar .content img{margin-right:auto; height:60px; width:auto; cursor:pointer;}
 
 #footer{}
 
