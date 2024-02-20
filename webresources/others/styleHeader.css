@@ -13,7 +13,7 @@
 #headerBar .content img{margin-right:auto; height:60px; width:auto; cursor:pointer; transition:0.5s;}
 #headerBar .content img:hover{scale:1.06;}
 
-#footer{}
+#footer a{display:inline-block;}
 
 
 
