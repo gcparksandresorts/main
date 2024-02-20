@@ -7,35 +7,21 @@
 	<link rel="stylesheet" href="https://gcparksandresorts.github.io/main/webresources/others/styleHeader.css">
 
   <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
-	<title>PAGE_TITLE | Globe-City Parks and Resorts</title>
+	<title>Destinations | Globe-City Parks and Resorts</title>
 	
 	<style>
-    		.spanContainer{
-		   	width:100%; margin:0; padding:0; minimum-height:500px;
-    		}
-		.spanContainer .right{
-			width:100%; height:100%;
-			background:linear-gradient(90deg,rgba(0,0,0,0),rgba(0,0,0,0),midnightblue,midnightblue);
-		}
-		.spanContainer .left{
-			width:100%; height:100%;
-			background:linear-gradient(90deg,midnightblue,midnightblue,rgba(0,0,0,0),rgba(0,0,0,0));
-		}
-		.spanContainer .right div{
-			
-		}
-		.spanContainer .left div{
-			
-		}
-		#gcap {
-			background:url("https://gcparksandresorts.github.io/gcresorthighland/webresources/images/fotd1.jpg");
-			background-size:cover; background-repeat:no-repeat; background-position:center;
-		}
-		#cs {
-			background:url("https://www.universalorlandoyouth.com/Images/Carousel/universal-citywalk-orlando-1000x350-new.jpg");
-			background-size:cover; background-repeat:no-repeat; background-position:center;
-		}
-  </style>
+		body{background:linear-gradient(midnightBlue,midnightBlue,white);}
+		.spanContainer{overflow:hidden; background:black; position:relative; min-height:400px; margin-top:30px;}
+		.spanContainer .background{position:absolute; top:0;right:0;bottom:0;left:0; width:100%; height:100%; object-fit:cover; object-position:center; transition:0.8s; filter: blur(4px); scale:1.04;}
+		.spanContainer:hover .background{scale:1.3; filter: blur(1px); opacity: 0.5;}
+        	.spanContainer div{position:absolute; top:0;right:0;left:0;bottom:0; text-align:center; margin:auto; padding:15px; opacity:0; transition:1s;  color:white; max-width:1000px; margin:auto;}
+        	.spanContainer:hover div{opacity:1;}
+
+		.spanContainer div img{display:block; height:80px; width:auto; margin:auto; margin-bottom:15px;}
+		.spanContainer div a{color:white; display:inline-block;}
+
+		h1,h2,h3{color:white;}
+  	</style>
 </head>
 
 	<script></script>
@@ -43,19 +29,67 @@
 <body onload="endLoadingInitial()"> <!------------------------------------------------------------------------------------------------------------------------ BODY -->
 <!--HEADER CONTNETS --><div id='loader'><div></div></div> <div id='header'></div>
 	
-
-	<div class='banner'> <img src='https://gcparksandresorts.github.io/main/webresources/images/banner(1).png'> </div>
-	<div class='titleBar'> <h1>PAGE_TITLE</h1> </div>
-
-	<div class='spanContainer' id='gcap'>
-		<div class='right'>
-			
+	<div class='titleBar'><h1>Our Destinations</h1></div>
+	<div class='subtitleBar'><p>Globe-City Parks and Resorts LLC is Oras Nou's leading recreation and amusement supplier, welcoming over 8 million guests across our 3 resorts annually. We're expanding to cover more of Minecraftia, and the world, and you can explore some of our current projects <a href='projects'>here</a>!</p></div>
+	
+	<div class='spanContainer'>
+		<img class='background' src='https://gcparksandresorts.github.io/main/webresources/images/banner(1).png'>
+       		<div>
+			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcapLogo.png'>
+			<p>
+				An immersive themepark featuring 7 unique lands and over a dozen innovative and thrilling attractions. From rollercoasters to world-building dark rides, there's something for everyone!
+			</p>
+			<p>
+				<a href='https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park'>Learn More</a> | <a>View Bookings and Tickets</a>
+			</p>
 		</div>
 	</div>
-
-	<div class='spanContainer' id='cs'>
-		<div class='left'>
-			
+	<div class='spanContainer'>
+		<img class='background' src='https://www.universalorlandoyouth.com/Images/Carousel/universal-citywalk-orlando-1000x350-new.jpg'>
+       		<div>
+			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/cityshopLogo.png'>
+			<p>
+				A high-tech shopping and dining paradise featuring upbeat music and over a dozen restaurants, stores, and entertainment opportunities! Right in the heart of Highland, Oras Nou's biggest destination of entertainment and recreation.
+			</p>
+			<p>
+				<a href='https://gcparksandresorts.github.io/gcresorthighland/destinations/city-shop'>Learn More</a> | <a>View Bookings and Tickets</a>
+			</p>
+		</div>
+	</div>
+	<div class='spanContainer'>
+		<img class='background' src='https://www.tripsavvy.com/thmb/nuCN7r0WvGLV5UlW_LEKVnHLXB0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Disneys-Paradise-Pier-Hotel-56a387ad5f9b58b7d0d2740a.jpg'>
+       		<div>
+			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/lakesideHotelLogo.png'>
+			<p>
+				description_text
+			</p>
+			<p>
+				<a>Learn More</a> | <a>View Bookings and Tickets</a>
+			</p>
+		</div>
+	</div>
+	<div class='spanContainer'>
+		<img class='background' src='https://static.wixstatic.com/media/14fb20_0e3b9cc928974d74b371d8c4604cfb84~mv2.jpg/v1/fill/w_1175,h_729,al_c/14fb20_0e3b9cc928974d74b371d8c4604cfb84~mv2.jpg'>
+       		<div>
+			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/aztechResortLogo.png'>
+			<p>
+				An elegant and luxorious resort hotel located right above City-Shop in the heart of Highland, Oras Nou. 
+			</p>
+			<p>
+				<a href='https://gcparksandresorts.github.io/gcresorthighland/destinations/the-aztech-resort'>Learn More</a> | <a>View Bookings and Tickets</a>
+			</p>
+		</div>
+	</div>
+	<div class='spanContainer'>
+		<img class='background' src='https://i-luxuryhotels.com/wp-content/uploads/2021/12/pexels-kelly-l-2869215-min-1024x694.jpg'>
+       		<div>
+			<img src='img_link'>
+			<p>
+				description_text
+			</p>
+			<p>
+				<a>Learn More</a> | <a>View Bookings and Tickets</a>
+			</p>
 		</div>
 	</div>
 	
