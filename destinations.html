@@ -12,13 +12,22 @@
 	<style>
 		body{background:linear-gradient(midnightBlue,midnightBlue,white);}
 		.spanContainer{overflow:hidden; background:black; position:relative; min-height:400px; margin-top:30px;}
+		
 		.spanContainer .background{position:absolute; top:0;right:0;bottom:0;left:0; width:100%; height:100%; object-fit:cover; object-position:center; transition:0.8s; filter: blur(4px); scale:1.04;}
 		.spanContainer:hover .background{scale:1.3; filter: blur(1px); opacity: 0.5;}
-        	.spanContainer div{position:absolute; top:0;right:0;left:0;bottom:0; text-align:center; margin:auto; padding:15px; opacity:0; transition:1s;  color:white; max-width:1000px; margin:auto;}
-        	.spanContainer:hover div{opacity:1;}
 
-		.spanContainer div img{display:block; height:80px; width:auto; margin:auto; margin-bottom:15px;}
-		.spanContainer div a{color:white; display:inline-block;}
+		.spanContainer .bkgLogo{position:absolute; display:flex; top:50%; left:50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); height:150px; width:auto; opacity:1; transition:0.8s;}
+		.spanContainer:hover .bkgLogo{opacity:0; top:0;}
+		
+        	.spanContainer .content{position:absolute; top:0;right:0;left:0;bottom:0; text-align:center; margin:auto; padding:15px; opacity:0; transition:1s;  color:white; max-width:1000px; margin:auto;}
+        	.spanContainer:hover .content{opacity:1;}
+		.spanContainer .content img{display:block; height:80px; width:auto; margin:auto; margin-bottom:15px;}
+		.spanContainer .content a{color:white; display:inline-block;}
+
+		@media screen and (max-width:800px){
+			.spanContainer .content img{width:90%; height:auto;}
+			.spanContainer .bkgLogo{width:90%; height:auto;}
+		}
 
 		h1,h2,h3{color:white;}
   	</style>
@@ -34,7 +43,8 @@
 	
 	<div class='spanContainer'>
 		<img class='background' src='https://gcparksandresorts.github.io/main/webresources/images/banner(1).png'>
-       		<div>
+		<img class='bkgLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcapLogo.png'>
+       		<div class='content'>
 			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcapLogo.png'>
 			<p>
 				An immersive themepark featuring 7 unique lands and over a dozen innovative and thrilling attractions. From rollercoasters to world-building dark rides, there's something for everyone!
@@ -44,9 +54,12 @@
 			</p>
 		</div>
 	</div>
+
+	
 	<div class='spanContainer'>
 		<img class='background' src='https://www.universalorlandoyouth.com/Images/Carousel/universal-citywalk-orlando-1000x350-new.jpg'>
-       		<div>
+		<img class='bkgLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/cityshopLogo.png'>
+       		<div class='content'>
 			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/cityshopLogo.png'>
 			<p>
 				A high-tech shopping and dining paradise featuring upbeat music and over a dozen restaurants, stores, and entertainment opportunities! Right in the heart of Highland, Oras Nou's biggest destination of entertainment and recreation.
@@ -58,7 +71,8 @@
 	</div>
 	<div class='spanContainer'>
 		<img class='background' src='https://www.tripsavvy.com/thmb/nuCN7r0WvGLV5UlW_LEKVnHLXB0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Disneys-Paradise-Pier-Hotel-56a387ad5f9b58b7d0d2740a.jpg'>
-       		<div>
+		<img class='bkgLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/lakesideHotelLogo.png'>
+       		<div class='content'>
 			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/lakesideHotelLogo.png'>
 			<p>
 				description_text
@@ -70,7 +84,8 @@
 	</div>
 	<div class='spanContainer'>
 		<img class='background' src='https://static.wixstatic.com/media/14fb20_0e3b9cc928974d74b371d8c4604cfb84~mv2.jpg/v1/fill/w_1175,h_729,al_c/14fb20_0e3b9cc928974d74b371d8c4604cfb84~mv2.jpg'>
-       		<div>
+		<img class='bkgLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/aztechResortLogo.png'>
+       		<div class='content'>
 			<img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/aztechResortLogo.png'>
 			<p>
 				An elegant and luxorious resort hotel located right above City-Shop in the heart of Highland, Oras Nou. 
@@ -82,7 +97,8 @@
 	</div>
 	<div class='spanContainer'>
 		<img class='background' src='https://i-luxuryhotels.com/wp-content/uploads/2021/12/pexels-kelly-l-2869215-min-1024x694.jpg'>
-       		<div>
+		<img class='bkgLogo' src='img_link'>
+       		<div class='content'>
 			<img src='img_link'>
 			<p>
 				description_text
