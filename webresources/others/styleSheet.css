@@ -10,6 +10,7 @@ body{
 /*-- HEADINGS ----------------------------------------------------------------------------------------------------------------------------------------------- */
 
   h1{font-size:28px;color:midnightblue;font-weight:normal;} h2{font-size:23px;color:midnightblue;font-weight:normal;} h3{font-size:20px;color:dimgray;font-weight:bold;} 
+  h1,h2,h3 {font-family: Garamond, serif;}
 
 
 /*-- SUBTEXT  ----------------------------------------------------------------------------------------------------------------------------------------------- */
