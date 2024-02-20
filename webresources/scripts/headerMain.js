@@ -58,7 +58,7 @@ function miniMenuOpen(){
 		setTimeout(function(){headerMenu.style.opacity = 1;},1);
 		headMenuHide.style.display = 'block';
 
-		
+		minMen = 1;
 	}
 	else{
 		const headMenu = document.getElementById("headerMenu");
