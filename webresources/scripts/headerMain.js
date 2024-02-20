@@ -3,7 +3,7 @@ const foot = document.getElementById("footer");
 
 const loader = document.getElementById("loader");
 
-var minMen = 0;
+var minMen = 69;
 
 // https://gcparksandresorts.github.io/main/
 
@@ -42,7 +42,7 @@ function endLoadingInitial(){
 window.onresize = runHeaderSetup;
 
 function miniMenuOpen(){
-	if(minMen == 0){
+	if(minMen == 69){
 		head.innerHTML += "<div id='headerMenu'>\
 			<a href='https://gcparksandresorts.github.io/main/destinations'>Destinations</a>\
 			<a>Projects</a>\
@@ -51,6 +51,16 @@ function miniMenuOpen(){
 			</div>";
 		head.innerHTML += "<div id='headerMenuHide' onclick='miniMenuOpen()'></div>";
 
+		const headMenu = document.getElementById("headerMenu");
+		const headMenuHide = document.getElementById("headerMenuHide");
+
+		headerMenu.style.display = 'block';
+		setTimeout(function(){headerMenu.style.opacity = 1;},1);
+		headMenuHide.style.display = 'block';
+
+		minMen = 1;
+	}
+	else if(minMen == 0){
 		const headMenu = document.getElementById("headerMenu");
 		const headMenuHide = document.getElementById("headerMenuHide");
 
