@@ -3,6 +3,8 @@ const foot = document.getElementById("footer");
 
 const loader = document.getElementById("loader");
 
+var minMen = 0;
+
 // https://gcparksandresorts.github.io/main/
 
 function runHeaderSetup(){
@@ -12,7 +14,7 @@ function runHeaderSetup(){
 		console.log("Smaller Screen Header");
 		head.innerHTML = "<div id='headerBar'> <div class='content'> \
 			<img src='https://gcparksandresorts.github.io/main/webresources/images/GCPR-logo.png' onclick='window.open("+'"https://gcparksandresorts.github.io/main","_self"'+")'> \
-			<a onclick='miniMenuOpen'>MENU</a> \
+			<a onclick='miniMenuOpen()'>MENU</a> \
 			</div> </div> <div id='headerBarSpacer'></div>";
 	}
 	else{
@@ -39,3 +41,35 @@ function endLoadingInitial(){
 
 window.onresize = runHeaderSetup;
 
+function miniMenuOpen(){
+	if(minMen == 0){
+		head.innerHTML += "<div id='headerMenu'>\
+			<a href='https://gcparksandresorts.github.io/main/destinations'>Destinations</a>\
+			<a>Projects</a>\
+			<a>About Us</a>\
+			<a>Get in Contact</a>\
+			</div>";
+		head.innerHTML += "<div id='headerMenuHide' onclick='miniMenuOpen()'></div>";
+
+		const headMenu = document.getElementById("headerMenu");
+		const headMenuHide = document.getElementById("headerMenuHide");
+
+		headerMenu.style.display = 'block';
+		setTimeout(function(){headerMenu.style.opacity = 1;},1);
+		headMenuHide.style.display = 'block';
+
+		
+	}
+	else{
+		const headMenu = document.getElementById("headerMenu");
+		const headMenuHide = document.getElementById("headerMenuHide");
+		
+		minMen = 0;
+		
+		headerMenu.style.opacity = 0;
+		headMenuHide.style.display = 'none';
+		
+		setTimeout(function(){headerMenu.style.display = 'none';},1000);
+		
+	}
+}
