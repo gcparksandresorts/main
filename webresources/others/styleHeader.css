@@ -15,10 +15,10 @@
 
 #footer a{display:inline-block;}
 
-#headerMenu{position:fixed; top:80px; left:0; bottom:0; background:navy; width:90%; max-width:400px; transition:0.5s; opacity:0; z-index:998; padding:15px; text-align:left;}
+#headerMenu{position:fixed; top:80px; left:0; bottom:0; background:navy; width:90%; max-width:400px; transition:0.5s; opacity:0; z-index:998; padding:15px; text-align:left; display:none;}
 #headerMenu a{display:block; margin:5px; color:white; text-decoration:none;}
 #headerMenu a:hover{color:gold; scale:1.06;}
-#headerMenuHide{position:fixed; opacity:0.5; background:black; top:0; left:0; right:0; bottom:0; z-index:997;}
+#headerMenuHide{position:fixed; opacity:0.5; background:black; top:0; left:0; right:0; bottom:0; z-index:997; display:none;}
 
 
 
