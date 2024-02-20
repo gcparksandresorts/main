@@ -12,7 +12,7 @@ function runHeaderSetup(){
 		console.log("Smaller Screen Header");
 		head.innerHTML = "<div id='headerBar'> <div class='content'> \
 			<img src='https://gcparksandresorts.github.io/main/webresources/images/GCPR-logo.png' onclick='window.open("+'"https://gcparksandresorts.github.io/main","_self"'+")'> \
-			<a>MENU</a> \
+			<a onclick='miniMenuOpen'>MENU</a> \
 			</div> </div> <div id='headerBarSpacer'></div>";
 	}
 	else{
