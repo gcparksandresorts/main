@@ -3,6 +3,8 @@ const foot = document.getElementById("footer");
 
 const loader = document.getElementById("loader");
 
+// https://gcparksandresorts.github.io/main/
+
 function runHeaderSetup(){
 
 	let width = window.innerWidth;
@@ -17,9 +19,9 @@ function runHeaderSetup(){
 		console.log("Large Screen Header");
 		head.innerHTML = "<div id='headerBar'> <div class='content'> \
 	  		<img src='https://gcparksandresorts.github.io/main/webresources/images/GCPR-logo.png' onclick='window.open("+'"https://gcparksandresorts.github.io/main","_self"'+")'> \
-	  		<a>Destinations</a> \
+	  		<a href='https://gcparksandresorts.github.io/main/destinations'>Destinations</a> \
 	  		<a>Current Projects</a> \
-	  		<a>About Us</a> \
+	  		<a href='https://gcparksandresorts.github.io/main/about'>About Us</a> \
 	  		<a>Get in Contact</a> \
 	  		</div> </div> <div id='headerBarSpacer'></div>";
 	}
