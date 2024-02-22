@@ -1,6 +1,8 @@
 const Header = document.getElementById("header");
 const footBar = document.getElementById("footer");
 
+const date = new Date();
+
 function runHeaderSetup(){
 		Header.innerHTML = "";
 		
