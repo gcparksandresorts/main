@@ -30,7 +30,7 @@ function runHeaderSetup(){
   	
   	foot.innerHTML = "<br><br><div class='spacer'></div> \
 		<div class='container'>(C) 2024 Globe-City Parks and Resorts LLC. <p><b>(312) 900 9132</b><br>15780 West Blvd.<br>Highland, Oras Nou 98810</p></div><div class='spacer'></div> \
-		<div class='container'><a>Buisness Opportunities</a> | <a>Meetings and Events</a> | <a>Contracting and Services</a></div> <div class='spacer'></div> \
+		<div class='container'><a>Buisness Opportunities</a> | <a href='https://gcparksandresorts.github.io/main/meetings-and-events/home'>Meetings and Events</a> | <a>Contracting and Services</a></div> <div class='spacer'></div> \
 		<div class='container'><a>Legal</a> | <a href='https://gcparksandresorts.github.io/main/careers/home'>Careers</a> | <a>Corporate</a></div>";
 }//End function run header setup
 
