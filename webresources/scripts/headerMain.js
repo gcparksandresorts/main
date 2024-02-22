@@ -46,8 +46,8 @@ function miniMenuOpen(){
 		head.innerHTML += "<div id='headerMenu'>\
 			<a href='https://gcparksandresorts.github.io/main/destinations'>Destinations</a>\
 			<a>Projects</a>\
-			<a>About Us</a>\
-			<a>Get in Contact</a>\
+			<a href='https://gcparksandresorts.github.io/main/about'>About Us</a>\
+			<a href='https://gcparksandresorts.github.io/main/careers/home'>Careers</a>\
 			</div>";
 		head.innerHTML += "<div id='headerMenuHide' onclick='miniMenuOpen()'></div>";
 
