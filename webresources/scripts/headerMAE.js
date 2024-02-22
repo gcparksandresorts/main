@@ -18,6 +18,11 @@ function initializeHeader(){
                         <a>Event Services</a> \
                         </div>";
 
+		footBar.innerHTML = "<br><br><div class='spacer'></div> \
+		<div class='container'>(C) " + date.getFullYear() +  " Globe-City Parks and Resorts LLC. <p><b>(312) 900 9132</b> | <a href='mailto:globecityparksandresorts@gmail.com'>connect@gcpr.net</a></p><p>1511 West Blvd. #3<br>Highland, Oras Nou 98008</p></div><div class='spacer'></div> \
+		<div class='container'><a>Buisness Opportunities</a> | <a href='https://gcparksandresorts.github.io/main/meetings-and-events/home'>Meetings and Events</a> | <a>Contracting and Services</a></div> <div class='spacer'></div> \
+		<div class='container'><a>Legal</a> | <a href='https://gcparksandresorts.github.io/main/careers/home'>Careers</a> | <a>Corporate</a></div>";
+
 	document.getElementById('loader').style.display = 'none';
 	
 }//end of function initializeHeader
