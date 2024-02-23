@@ -18,12 +18,56 @@
 <!--HEADER CONTNETS --><div id='loader'><div></div></div> <div id='header'></div>
 	
 
-	<div class='banner'> <img src='https://gcparksandresorts.github.io/main/webresources/images/banner(1).png'> </div>
+	<div class='banner'> <img src='https://live.staticflickr.com/3745/12000287585_b5d37d5e81_b.jpg'> </div>
 	<div class='titleBar'> <h1>Adventure is Our Speciality</h1> </div>
 	<div class='subtitleBar'><p>Since the beggining, Globe-City Parks and Resorts has centered around 3 core values: <b>Adventure, Innovation, Experience</b>. It is from these values that we drive a passionate movement towards better recreation, entertainment, and fun for everyone! Our CEO and founder, Reven Reyman, has lived to create a world where children and adults alike can stay and play, imprinting new memories to last a lifetime. Discover the magic in your heart and see what a Globe-City branded resorts can mean for you!</p></div>
 
 	<div class='container'>
-		Body Content Goes Here
+		<h1>A Brief History of Great Achievements</h1>
+		<div class='tileContainer'>
+			<div><img src='https://yt3.googleusercontent.com/ytc/AOPolaS7pVowyT8MlEB1s-pJaiDaJJYuyIrdg4ZpoR1dWwY=s900-c-k-c0x00ffffff-no-rj'><h3>2014</h3>Reuven Reyman founded Globe-City Entertainment</div>
+			<div><img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/tts3.jpg'><h3>2016</h3>Adventure Park Opened, the first Themed amusement park in Oras Nou!</div>
+			<div><img src='https://i0.wp.com/disneydiary.com/wp-content/uploads/2019/05/Aerial-View-of-Disneyland.jpg?fit=1600%2C900&ssl=1'><h3>2017</h3>All resort properties under Globe-City Entertainment were moved to the new division: Globe-City Parks and Resorts</div>
+		</div>
+			<section id='history-hidden' class='fadeIn'>
+			<div class='tileContainer'>
+				<div><img src='https://www.universalorlandoyouth.com/Images/Carousel/universal-citywalk-orlando-1000x350-new.jpg'><h3>2018</h3>City-Shop and the Aztech Resort Opened, finalizing the Globe-City Resort Highland.</div>
+				<div><img src='https://www.coralbeachmyrtlebeachresort.com/wp-content/uploads/2022/02/10-12-21-Myrtle-Beach-DJI_0399-scaled.jpg'><h3>2019</h3>Globe-City's Oceanside Resort Opened featuring a beach-side amusement park</div>
+				<div><img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/RTB2.jpg'><h3>2021</h3>GCPR made history with Ride the Beat: Waveriders, Minecraftias only indoor launched rollercoaster!</div>
+				<div><img src='https://ak-d.tripcdn.com/images/0226n12000cam5ppl86C8_R_550_412_R5.jpg'><h3>2023</h3>Globe-City Parks and Resorts aquired The Diamond Center Hotel and revitalized the facility</div>
+			</div>
+				<p><a onclick='hideHistory()'>Contract (←)</a></p>
+			</section>
+			<!-- 
+			<div><img src='img_link'><h3>heading</h3>description</div> 
+			-->
+		<p><a onclick='expandHistory()' id='history-hider'>Expand (→)</a></p>
+	</div>
+
+	<script>
+		document.getElementById("history-hidden").style.display="none";
+		function expandHistory(){
+			document.getElementById("history-hidden").style.display="initial";
+			document.getElementById("history-hider").style.display="none";
+		}
+		
+		function hideHistory(){
+			document.getElementById("history-hidden").style.display="none";
+			document.getElementById("history-hider").style.display="initial";
+		}
+	</script>
+
+	<div class='fullContainer' style='background:linear-gradient(white,midnightblue,midnightblue,white); color:white;'>
+		<br>
+		<div class='columnContainer' style='color:white; text-align:left;'>
+			<img src='https://travelmamas.com/wp-content/uploads/2019/12/disneyland_hotel_pools_grand_californian-2.jpg'>
+			<div>
+				<h1 style='color:white'>We Bring the Magic, You Make the Memories</h1>
+				we believe in the transformative power of magic and the enduring joy of shared moments. We are dedicated to crafting enchanting experiences for guests of all ages. 
+				<p>Whether it's a thrilling ride through one of our amusement parks, a relaxing stay at our resort hotels, or a memorable event hosted in our banquet halls, we are committed to creating the perfect backdrop for you and your loved ones to create cherished memories together. </p>
+			</div>
+		</div>
+		<br>
 	</div>
 	
 <!--F00TER CONTENTS --><div id='footer'></div>
