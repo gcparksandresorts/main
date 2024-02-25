@@ -4,7 +4,7 @@ const BB = document.getElementById("bottomBar");
 	var myScrollFunc = function() {
 	var y = window.scrollY;
 	if (y >= 200) {
-		  if(firstTime == 0){myID.style.display = 'block'; firstTime = 1; setTimeout(function(){BB.style.opacity = 1;},50);}else{
+		  if(firstTime == 0){BB.style.display = 'block'; firstTime = 1; setTimeout(function(){BB.style.opacity = 1;},50);}else{
 	    		BB.style.opacity = 1;
 		  }
 	  } else {
