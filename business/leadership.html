@@ -10,12 +10,16 @@
 	<title>Corporate Leadership | Globe-City Parks and Resorts</title>
 	
 	<style>
-		.profileContainer{display:flex; margin:0; flex-flow:row; flex-wrap:wrap; align-items:flex-start; justify-content:center;}
+		.profileContainer{display:flex; margin:0; flex-flow:row; flex-wrap:wrap; align-items:flex-start; justify-content:center; width:100%;}
 		.profileContainer div{width:25%; margin:0; padding:15px; display:flex; min-width:500px;}
 		.profileContainer .special{width:100%; max-width:600px;}
 		.profileContainer div img{width:100px; height:100px; object-fit:contain; margin-right:10px; border-radius:50%;}
        	 	.profileContainer div p{width:100%; text-align:left; align-self:stretch; margin-top:auto; margin-bottom:auto;}
         	.profileContainer div p em{display:block; margin-bottom:8px;}
+
+		@media screen and (max-width:500px){
+			.profileContainer div{width:100%; margin:0; padding:15px; display:flex; min-width:300px;}
+		}
 	</style>
 </head>
 
