@@ -33,7 +33,7 @@ function runHeaderSetup(){
   	foot.innerHTML = "<br><br><div class='spacer'></div> \
 		<div class='container'><p><b>(312) 900 9132</b> | <a href='mailto:globecityparksandresorts@gmail.com'>connect@gcpr.net</a></p><p>1511 West Blvd. #3<br>Highland, Oras Nou 98008</p></div><div class='spacer'></div> \
 		<div class='container'><a href='https://gcparksandresorts.github.io/main/business/opportunities'>Buisness Opportunities</a> | <a href='https://gcparksandresorts.github.io/main/meetings-and-events/home'>Meetings and Events</a> | <a href='https://gcparksandresorts.github.io/main/painter-creative'>Painter Creative</a></div> <div class='spacer'></div> \
-		<div class='container'><p class='disclaimer'>(C) " + date.getFullYear() +  " Globe-City Parks and Resorts LLC. </p><a>Legal</a> | <a href='https://gcparksandresorts.github.io/main/careers/home'>Careers</a> | <a href='https://gcparksandresorts.github.io/main/business'>Corporate</a></div>";
+		<div class='container'><p class='disclaimer'>(C) " + date.getFullYear() +  " Globe-City Parks and Resorts LLC. </p><a>Legal</a> | <a href='https://gcparksandresorts.github.io/main/careers/home'>Careers</a> | <a href='https://gcparksandresorts.github.io/main/business/landing'>Corporate</a></div>";
 }//End function run header setup
 
 function endLoadingInitial(){
