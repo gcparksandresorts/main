@@ -2,7 +2,7 @@
 #headerBarSpacer{position:absolute; background:black; top:0; left:0; right:0; height:80px;}
 #headerBar{
     	position:fixed; top:0; left:0; right:0; margin-top:0; height:80px; 
-        background:linear-gradient(90deg,MidnightBlue,navy,MidnightBlue);
+        background:linear-gradient(90deg,darkslategray,#406a6a,darkslategray);
 	opacity:0.95;
 	padding:0;
 	z-index:999;
@@ -15,7 +15,7 @@
 
 #footer a{display:inline-block;}
 
-#headerMenu{position:fixed; top:80px; left:0; bottom:0; background:navy; width:90%; max-width:400px; transition:0.5s; opacity:0; z-index:998; padding:15px; text-align:left; display:none;}
+#headerMenu{position:fixed; top:80px; left:0; bottom:0; background:darkslategray; width:90%; max-width:400px; transition:0.5s; opacity:0; z-index:998; padding:15px; text-align:left; display:none;}
 #headerMenu a{display:block; margin:5px; color:white; text-decoration:none; font-size:17px;}
 #headerMenu a:hover{color:gold; scale:1.06;}
 #headerMenuHide{position:fixed; opacity:0.5; background:black; top:0; left:0; right:0; bottom:0; z-index:997; display:none;}
@@ -25,8 +25,8 @@
 #loader{position:fixed;top:0;bottom:0;left:0;right:0;background:white;z-index:998; transition:0.5s;}
         #loader div{
         		border:16px solid #efefef;
-	            border-top:16px solid midnightblue;
-	            border-bottom: 16px solid midnightblue;
+	            border-top:16px solid darkslategray;
+	            border-bottom: 16px solid darkslategray;
 	            border-radius:50%;
 	            width:120px; height:120px;
 	            animation: spin 2s linear infinite;
