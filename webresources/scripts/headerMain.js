@@ -15,14 +15,14 @@ function runHeaderSetup(){
 	if(width < 900){
 		console.log("Smaller Screen Header");
 		head.innerHTML = "<div id='headerBar'> <div class='content'> \
-			<img src='https://gcparksandresorts.github.io/main/webresources/images/GCPR-logo.png' onclick='window.open("+'"https://gcparksandresorts.github.io/main","_self"'+")'> \
+			<img src='https://gcparksandresorts.github.io/main/webresources/images/gce-logo.png' onclick='window.open("+'"https://gcparksandresorts.github.io/main","_self"'+")'> \
 			<a onclick='miniMenuOpen()'>MENU</a> \
 			</div> </div> <div id='headerBarSpacer'></div>";
 	}
 	else{
 		console.log("Large Screen Header");
 		head.innerHTML = "<div id='headerBar'> <div class='content'> \
-	  		<img src='https://gcparksandresorts.github.io/main/webresources/images/GCPR-logo.png' onclick='window.open("+'"https://gcparksandresorts.github.io/main","_self"'+")'> \
+	  		<img src='https://gcparksandresorts.github.io/main/webresources/images/gce-logo.png' onclick='window.open("+'"https://gcparksandresorts.github.io/main","_self"'+")'> \
 	  		<a href='https://gcparksandresorts.github.io/main/destinations'>Destinations</a> \
 	  		<a>Current Projects</a> \
 	  		<a href='https://gcparksandresorts.github.io/main/about'>About Us</a> \
